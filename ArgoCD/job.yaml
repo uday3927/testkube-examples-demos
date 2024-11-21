@@ -43,8 +43,7 @@ spec:
             --org-id ${ORGANIZATION_ID} \
             --env-id ${ENVIRONMENT_ID}
 
-          testkube run tw basic-k6-workflow -f
-          testkube run tw basic-playwright-workflow -f
-          testkube run tw basic-postman-workflow -f
+          testkube run tw k6-simple-workflow -f
+          
       restartPolicy: Never
   backoffLimit: 2
