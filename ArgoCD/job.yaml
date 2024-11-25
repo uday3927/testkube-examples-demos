@@ -46,4 +46,4 @@ spec:
           testkube run tw playwright-sample-testworkflow -f
           
       restartPolicy: Never
-  backoffLimit: 2
+  backoffLimit: 5
